@@ -29,7 +29,7 @@ pipeline {
     stage('Run Ansible Playbook') {
             steps {
                     // Run Ansible playbook
-                    sh 'ansible-playbook -i inventory install_nginx.yml'
+                    sh 'ansible-playbook  install_nginx.yml'
                 
             }
         }
