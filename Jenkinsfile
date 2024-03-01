@@ -13,11 +13,8 @@ pipeline {
 
       steps {
 
-        sh '''
-
-          java -version
-
-        '''
+       sh 'current_time=$(date +"%T")'
+        echo "The current time is: ${current_time}"
 
       }
 
