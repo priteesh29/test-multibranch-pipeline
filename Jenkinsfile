@@ -30,7 +30,7 @@ pipeline {
             steps {
                 script {
                     // Run Ansible playbook
-                    sh 'ansible-playbook -i inventory install_nginx.yml'
+                    sh '/ansible-playbook -i inventory install_nginx.yml'
                 }
             }
         }
