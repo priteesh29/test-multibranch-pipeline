@@ -13,8 +13,7 @@ pipeline {
 
       steps {
 
-       sh 'current_time=$(date +"%T")'
-        echo "The current time is: ${current_time}"
+        echo "The current time is: "
 
       }
 
